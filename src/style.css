@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    overflow: hidden;
+  }
+
+.back
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/296085/pexels-photo-296085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position: center;
+}
+
+.container
+{
+	display: flex;
+  	justify-content: center;
+}
+.box
+{
+    text-align: center;
+    backdrop-filter: blur(4px);
+}
+#title
+{
+    color: #fff;
+}
+.box2
+{
+    color: #020202;
+    font-size: 22px;
+}
+#btcadastro
+{
+    padding: 15px 40px;
+    border: 1px solid #051c2e;
+    border-radius: 5px; 
+    background: transparent;
+	transition: .3s;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 5px;
+    color: #fff;
+}
+
+#btcadastro:hover {
+    background: #ccb115;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccb115,
+                0 0 25px #ccb115,
+                0 0 50px #ccb115,
+                0 0 100px #ccb115;
+  }
+
+.modal
+{
+    background-color: #2e1e05;
+    color: rgb(255, 255, 255);
+}
+
+#btsalvar
+{
+    padding: 10px 20px;
+    border-radius: 5px; 
+    background: transparent;
+	transition: .3s;
+    letter-spacing: 2px;
+    background-color: #00af17;
+	cursor: pointer;
+    color: #fff;
+}
+#btsalvar:hover {
+    background: #00af17;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #00af17,
+                0 0 25px #00af17,
+                0 0 50px #00af17,
+                0 0 100px #00af17;
+  } 
+#btcancelar
+{
+    padding: 10px 20px;
+    border-radius: 5px; 
+    background: transparent;
+	transition: .3s;
+    letter-spacing: 2px;
+    background-color: #af0000;
+	cursor: pointer;
+    color: #fff;
+}
+#btcancelar:hover {
+    background: #af0000;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #af0000,
+                0 0 25px #af0000,
+                0 0 50px #af0000,
+                0 0 100px #af0000;
+  } 
